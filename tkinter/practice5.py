@@ -10,7 +10,7 @@ def showpath():
     t1=Toplevel()
     t1.title('文件列表')
     lb=Listbox(t1)
-    lb['width']=80#设置表宽
+    lb['width']=200#设置表宽
     sl=Scrollbar(t1)
     sl.pack(side=RIGHT,fill=Y)
     lb['yscrollcommand']=sl.set
